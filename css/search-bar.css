@@ -17,7 +17,7 @@
 
 .search-bar input:focus {
   outline: none;
-  border: 1px solid #ffe94a;
+  border-color: #ffe94a;
 }
 
 .search-bar input::placeholder {

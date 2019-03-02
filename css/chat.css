@@ -1,0 +1,124 @@
+.top-header--chat {
+  background-color: #A3BED9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-header--chat i,
+.top-header--chat span {
+  color: black;
+}
+
+.chat {
+  background-color: #A3BED9;
+  height: 100vh;
+  padding-top: 15px;
+}
+
+.chat .date-divider {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.chat__message--from-me {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.chat__message--to-me img {
+  align-self: flex-start;
+}
+
+.chat__message-time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+}
+
+.chat__message--from-me .chat__message-text {
+  background-color: #ffe934;
+  margin-right: 10px;
+}
+
+.chat__message--to-me {
+  margin-left: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat__message--to-me img {
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.chat__message .chat__message-username {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+.chat__message-text {
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.chat__message-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.type-message {
+  width: 100%;
+  bottom: 0;
+  height: 45px;
+  position: fixed;
+  padding-left: 10px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.body-chat {
+  padding-bottom: 0;
+}
+
+.type-message i:first-child {
+  margin-left: 5px;
+  color: #b4b4b4;
+}
+
+.type-message__input {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type-message__input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.type-message .fa-smile {
+  position: absolute;
+  right: 50px;
+  color: #b4b4b4;
+}
+
+.type-message__input .record-message {
+  background: #ffe934;
+  padding: 10px;
+  color: #523737;
+  cursor: pointer;
+}

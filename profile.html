@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
     <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header>
+  <body class="body--profile">
+    <header class="top-header top-header--transparent">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
@@ -29,10 +30,31 @@
         </div>
       </div>
       <div class="header__bottom">
-        <div class="header__column"><i class="fa fa-times fa-lg"></i></div>
+        <div class="header__column"><a href="index.html"><i class="fa fa-times fa-lg"></i></a></div>
         <div class="header__column"></div>
         <div class="header__column"><i class="fa fa-user fa-lg"></i></div>
       </div>
     </header>
+    <main class="profile">
+      <div class="profile__user-info">
+        <div class="profile__user-info-container">
+          <img src="images/avatar.png">
+          <h3 class="profile__user-name">Jun S. Lim</h3>
+          <span class="profile__user-email">jun.says.maktub@gmail.com</span>
+        </div>
+      </div>
+      <div class="profile__items">
+        <div class="profile__item">
+          <i class="fa fa-comment"></i>
+          <span class="profile__item-title">My Chatroom</span>
+        </div>
+        <div class="profile__item">
+          <i class="fa fa-pencil-alt"></i>
+          <span class="profile__item-title">Edit Profile</span>
+        </div>
+      </div>
+
+
+    </main>
   </body>
 </html>
